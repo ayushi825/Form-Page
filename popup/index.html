@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <!-- css link  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+  <!-- MDB -->
+
+<body class="gradient-custom">
+  <div class="height ">
+
+  <div class="text-center ">
+    <div>
+      <h3>RTI AND CONSUMER CASE</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, quisquam tempore. Minima, et tempora
+        quod vel sunt, sapiente asperiores saepe velit rerum illo hic necessitatibus.</p>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary gradient-custom-3 mx-4 rounded-pill" data-mdb-toggle="modal"
+      data-mdb-target="#exampleModal1">
+      Consumer case notice
+    </button>
+    <button type="button" class="btn btn-primary gradient-custom-3 rounded-pill" data-mdb-toggle="modal"
+      data-mdb-target="#exampleModal2">
+      RTI Filing
+    </button>
+  </div>
+
+
+    <!-- Modal-1/ Form-1 -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title " id="exampleModalLabel">CONSUMER CASE NOTICE</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" />
+                <label class="form-label" for="form4Example1">Name:</label>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2">Email</label>
+              </div>
+
+              <!-- contact input -->
+              <div class="form-outline mb-4">
+                <input type="number" id="form4Example3" name="phonenumber" class="form-control " maxlength="10" />
+                <label class="form-label" for="form4Example3">Contact Number:</label>
+              </div>
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example4" rows="3"></textarea>
+                <label class="form-label" for="form4Example4">Brief your dispute...</label>
+              </div>
+              <!-- state -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12">State:</div>
+                <div class="col-lg-6 col-md-12"> <select class="form-control" id="form4Example5">
+                    <option value="1">Bihar</option>
+                    <option value="2">Jharkhand</option>
+                  </select>
+                  <label class="form-label" for="form4Example5"></label>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12">Dispute/Injury amount(in₹):</div>
+                <div class="col-lg-6 col-md-12"> <input type="number" id="form4Example6" class="form-control" />
+                  <label class="form-label" for="form4Example6"></label>
+                </div>
+              </div>
+
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example7" checked />
+                <label class="form-check-label" for="form4Example7">
+                  Agreed upon all the Terms & Conditions , Refund & privacy policy.
+                </label>
+              </div>
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12">Payment:</div>
+                <div class="col-lg-6 col-md-12"> <select class="form-control" id="form4Example8">
+                    <option value="1">Pay now</option>
+                    <option value="2">Pay Later</option>
+                  </select>
+                  <label class="form-label" for="form4Example8"></label>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12"><label class="form-label" for="customFile">Link:</label></div>
+                <div class="col-lg-6 col-md-12"><input type="file" class="form-control" id="customFile" />
+                </div>
+              </div>
+
+
+              <!-- Submit button -->
+              <buton type="submit"
+                class="btn btn-primary btn-block mb-4 gradient-custom-3 mt-5  ">Send</buton>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary gradient-custom-3">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-2/ Form-2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">RTI FILING</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example9" class="form-control" />
+                <label class="form-label" for="form4Example9">Name:</label>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example10" class="form-control" />
+                <label class="form-label" for="form4Example10">Email address:</label>
+              </div>
+
+              <!-- contact input -->
+              <div class="form-outline mb-4">
+                <input type="number" id="form4Example11" name="phonenumber" class="form-control " maxlength="10" />
+                <label class="form-label" for="form4Example11">Contact Number:</label>
+              </div>
+              
+
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example12" rows="3"></textarea>
+                <label class="form-label" for="form4Example12">Information you are looking for:</label>
+              </div>
+              <!-- state -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12">State:</div>
+                <div class="col-lg-6 col-md-12"> <select class="form-control" id="form4Example13">
+                    <option value="1">Bihar</option>
+                    <option value="2">Jharkhand</option>
+                  </select>
+                  <label class="form-label" for="form4Example13"></label>
+                </div>
+              </div>
+
+              
+
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example14" checked />
+                <label class="form-check-label" for="form4Example14">
+                  Agreed upon all the Terms & Conditions , Refund & privacy policy.
+                </label>
+              </div>
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12">Payment:</div>
+                <div class="col-lg-6 col-md-12"> <select class="form-control" id="form4Example8">
+                    <option value="1">Pay now</option>
+                    <option value="2">Pay Later</option>
+                  </select>
+                  <label class="form-label" for="form4Example8"></label>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6 col-md-12"><label class="form-label" for="customFile">Link:</label></div>
+                <div class="col-lg-6 col-md-12"><input type="file" class="form-control" id="customFile" />
+                </div>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4 mt-5 gradient-custom-3">Send</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary gradient-custom-3">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+</body>
+
+</html>
